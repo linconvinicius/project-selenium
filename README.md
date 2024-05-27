@@ -12,9 +12,6 @@ Este projeto contém testes automatizados usando Selenium WebDriver para verific
 │ └── rocketskills
 │ └── petlov
 │ └── Slogan.java
-├── config.properties
-├── .gitignore
-└── README.md
 
 ## Pré-requisitos
 
