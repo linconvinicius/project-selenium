@@ -3,7 +3,7 @@
 Este projeto contém testes automatizados usando Selenium WebDriver para verificar o slogan do site PetLov.
 
 ## Estrutura do Projeto
-.
+
 ├── src
 │ └── main
 │ └── java
