@@ -1,6 +1,6 @@
-# PetLov Slogan Test
+# PetLov Test
 
-Este projeto contém testes automatizados usando Selenium WebDriver para verificar o slogan do site PetLov.
+Este projeto contém testes automatizados usando Selenium WebDriver para verificar as funcionalidades do site PetLov.
 
 ## Estrutura do Projeto
 
@@ -12,6 +12,7 @@ Este projeto contém testes automatizados usando Selenium WebDriver para verific
 │ └── rocketskills
 │ └── petlov
 │ └── Slogan.java
+| └── Cadastro.java
 
 ## Pré-requisitos
 
@@ -48,7 +49,8 @@ mvn test
 ```
 ## Estrutura do Código
 O código do teste está localizado em src/main/java/br/com/rocketskills/petlov/Slogan.java.
+O código do teste está localizado em src/main/java/br/com/rocketskills/petlov/Cadastro.java.
 
-O teste verifica se o slogan do site PetLov é exibido corretamente.
+Os testes verificam as funcionalidades do site PetLov.
 
 ### Bons testes :)
