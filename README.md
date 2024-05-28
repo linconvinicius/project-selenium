@@ -49,6 +49,7 @@ mvn test
 ```
 ## Estrutura do Código
 O código do teste está localizado em src/main/java/br/com/rocketskills/petlov/Slogan.java.
+
 O código do teste está localizado em src/main/java/br/com/rocketskills/petlov/Cadastro.java.
 
 Os testes verificam as funcionalidades do site PetLov.
