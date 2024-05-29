@@ -13,6 +13,7 @@ Este projeto contém testes automatizados usando Selenium WebDriver para verific
 │ └── petlov
 │ └── Slogan.java
 | └── Cadastro.java
+| └── Selenide.java
 
 ## Pré-requisitos
 
@@ -50,6 +51,7 @@ mvn test
 ## Estrutura do Código
 O código do teste está localizado em src/main/java/br/com/rocketskills/petlov/Slogan.java.
 O código do teste está localizado em src/main/java/br/com/rocketskills/petlov/Cadastro.java.
+O código do teste está localizado em src/main/java/br/com/rocketskills/petlov/Selenide.java.
 
 Os testes verificam as funcionalidades do site PetLov.
 
