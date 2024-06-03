@@ -18,3 +18,15 @@ gradle-app.setting
 
 # Misc
 *.log
+
+#VS Code
+.vscode/
+
+# POM files
+pom.xml
+
+#gitignore
+.gitignore
+
+#github
+.github/
