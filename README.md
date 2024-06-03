@@ -21,6 +21,7 @@ Este projeto contém testes automatizados usando Selenium WebDriver para verific
 - Maven
 - Google Chrome
 - ChromeDriver compatível com a versão do Google Chrome instalada
+- Selenide
 
 ## Configuração do Ambiente
 
