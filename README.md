@@ -36,6 +36,24 @@ Este projeto contém testes automatizados usando Selenium WebDriver para verific
    - Baixe o ChromeDriver compatível com a versão do seu Chrome [aqui](https://chromedriver.chromium.org/downloads).
    - Extraia o arquivo baixado para um diretório acessível.
 
+4. **Importe o Selenide**:
+   - Importe o Selenide seguindo o passo a passo [aqui](https://selenide.org/quick-start.html).
+   - Adicione as informações no arquivo `pom.xml`, abaixo das dependencias do Selenium.
+    ```
+      <dependency>
+         <groupId>com.codeborne</groupId>
+         <artifactId>selenide</artifactId>
+         <version>7.3.1</version>
+         <scope>test</scope>
+      </dependency>
+   ```
+   - Após adicionar as dependencias do Selenide, importe as mesmas no script de teste:
+
+   ```
+   import static com.codeborne.selenide.Selenide.*;
+   import static com.codeborne.selenide.Condition.*;
+   ```
+
 ## Executando os Testes
 
 1. **Clone o repositório**:
@@ -49,6 +67,12 @@ Este projeto contém testes automatizados usando Selenium WebDriver para verific
 ```
 mvn test
 ```
+
+Ou clique  com o botão direito do mouse dentro do seu bloco de teste e selecione: 
+```
+Run Test at Cursor (Executar o Teste no Cursor)
+```
+
 ## Estrutura do Código
 O código do teste está localizado em src/main/java/br/com/rocketskills/petlov/Slogan.java.
 
