@@ -5,15 +5,24 @@ Este projeto contém testes automatizados usando Selenium WebDriver para verific
 ## Estrutura do Projeto
 
 ├── src
+
 │ └── main
 │ └── java
+
 │ └── br
+
 │ └── com
+
 │ └── rocketskills
+
 │ └── petlov
+
 │ └── Slogan.java
+
 | └── Cadastro.java
+
 | └── Selenide.java
+
 
 ## Pré-requisitos
 
