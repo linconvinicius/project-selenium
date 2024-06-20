@@ -68,7 +68,7 @@ Este projeto contém testes automatizados usando Selenium WebDriver para verific
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/linconvinicius/project-selenium.git
    cd seu-repositorio
 
 ## 🤖 Como executar
